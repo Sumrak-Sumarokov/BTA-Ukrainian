@@ -23,7 +23,7 @@ guidebook.section.search.info.modifiers.9=§e...§r: Загальний пошу
 guidebook.section.mob.health=Здоров'я:
 guidebook.section.mob.score=Рахунок: %s
 guidebook.section.mob.damage=Сила атаки: %s
-guidebook.section.mob.drops=Дроп:
+guidebook.section.mob.drops=Здобич:
 
 guidebook.section.mob.undiscovered=Ця істота ще не виявлена.
 guidebook.section.mob.pig.name=Свиня
