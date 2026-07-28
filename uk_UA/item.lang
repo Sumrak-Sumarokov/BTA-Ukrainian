@@ -1,10 +1,5 @@
 item.unknown.desc=Ти ще не стикався з таким предметом.
 
-//compatibility
-item.sulphur.name=Порох
-item.sulphur.desc=Вибухова речовина, отримана з непримиренного кріпера.
-//
-
 //Я обожнюю Донт Старв
 
 //Знаряддя
@@ -34,9 +29,9 @@ item.tool.hoe.wood.name=Дерев'яна мотика
 item.tool.hoe.wood.desc=Оброблюй землю цим дерев'яним знаряддям.
 
 item.tool.shovel.stone.name=Кам'яна лопата
-item.tool.shovel.stone.desc=Розкопуй землю й приховані таємниці цим кам'яним знаряддям.
+item.tool.shovel.stone.desc=Розкопуй землю цим кам'яним знаряддям.
 item.tool.pickaxe.stone.name=Кам'яне кайло
-item.tool.pickaxe.stone.desc=Колупай камінь і досягай великих цілей із цим кам'яним знаряддям.
+item.tool.pickaxe.stone.desc=Збирай копалини із цим кам'яним знаряддям.
 item.tool.axe.stone.name=Кам'яна сокира
 item.tool.axe.stone.desc=Рубай дерева цим кам'яним знаряддям.
 item.tool.sword.stone.name=Кам'яний меч
@@ -45,9 +40,9 @@ item.tool.hoe.stone.name=Кам'яна мотика
 item.tool.hoe.stone.desc=Оброблюй землю цим кам'яним знаряддям.
 
 item.tool.shovel.iron.name=Залізна лопата
-item.tool.shovel.iron.desc=Розкопуй землю й приховані таємниці цим залізним знаряддям.
+item.tool.shovel.iron.desc=Розкопуй землю цим залізним знаряддям.
 item.tool.pickaxe.iron.name=Залізне кайло
-item.tool.pickaxe.iron.desc=Колупай камінь і досягай великих цілей із цим залізним знаряддям.
+item.tool.pickaxe.iron.desc=Збирай копалини із цим залізним знаряддям.
 item.tool.axe.iron.name=Залізна сокира
 item.tool.axe.iron.desc=Рубай дерева цим залізним знаряддям.
 item.tool.sword.iron.name=Залізний меч
@@ -56,9 +51,9 @@ item.tool.hoe.iron.name=Залізна мотика
 item.tool.hoe.iron.desc=Оброблюй землю цим залізним знаряддям.
 
 item.tool.shovel.diamond.name=Діамантова лопата
-item.tool.shovel.diamond.desc=Розкопуй землю й приховані таємниці цим діамантовим знаряддям.
+item.tool.shovel.diamond.desc=Розкопуй землю цим діамантовим знаряддям.
 item.tool.pickaxe.diamond.name=Діамантове кайло
-item.tool.pickaxe.diamond.desc=Колупай камінь і досягай великих цілей із цим діамантовим знаряддям.
+item.tool.pickaxe.diamond.desc=Збирай копалини із цим діамантовим знаряддям.
 item.tool.axe.diamond.name=Діамантова сокира
 item.tool.axe.diamond.desc=Рубай дерева цим діамантовим знаряддям.
 item.tool.sword.diamond.name=Діамантовий меч
@@ -67,9 +62,9 @@ item.tool.hoe.diamond.name=Діамантова мотика
 item.tool.hoe.diamond.desc=Оброблюй землю цим діамантовим знаряддям.
 
 item.tool.shovel.gold.name=Золота лопата
-item.tool.shovel.gold.desc=Розкопуй землю й приховані таємниці цим делікатним золотим знаряддям.
+item.tool.shovel.gold.desc=Розкопуй землю цим делікатним золотим знаряддям.
 item.tool.pickaxe.gold.name=Золоте кайло
-item.tool.pickaxe.gold.desc=Збирай копалини й досягай великих цілей із цим делікатним золотим знаряддям.
+item.tool.pickaxe.gold.desc=Збирай копалини із цим делікатним золотим знаряддям.
 item.tool.axe.gold.name=Золота сокира
 item.tool.axe.gold.desc=Рубай дерева цим делікатним золотим знаряддям.
 item.tool.sword.gold.name=Золотий меч
@@ -80,7 +75,7 @@ item.tool.hoe.gold.desc=Занадто делікатне знаряддя дл�
 item.tool.shovel.steel.name=Сталева лопата
 item.tool.shovel.steel.desc=Копай землю цим довговічним сталевим знаряддям.
 item.tool.pickaxe.steel.name=Сталеве кайло
-item.tool.pickaxe.steel.desc=Колупай камінь і досягай великих цілей із цим довговічним сталевим знаряддям.
+item.tool.pickaxe.steel.desc=Збирай копалини із цим довговічним сталевим знаряддям.
 item.tool.axe.steel.name=Сталева сокира
 item.tool.axe.steel.desc=Рубай дерева цим довговічним сталевим знаряддям.
 item.tool.sword.steel.name=Сталевий меч
@@ -88,15 +83,15 @@ item.tool.sword.steel.desc=Вбивай бридких почвар цим до�
 item.tool.hoe.steel.name=Сталева мотика
 item.tool.hoe.steel.desc=Оброблюй землю цим довговічним сталевим знаряддям.
 
-item.tool.firestriker.name=Кресало
-item.tool.firestriker.desc=Навіть не здумай.
+item.tool.firestriker.iron.name=Кресало
+item.tool.firestriker.iron.desc=Навіть не здумай.
 item.tool.firestriker.steel.name=Сталеве кресало
 item.tool.firestriker.steel.desc=Навіть ще згубніший.
 
 item.tool.bow.name=Лук
 item.tool.bow.desc=Знаряддя для невпинного обстрілу стрілами.
 item.armor.quiver.name=Тула
-item.armor.quiver.desc=Треба утримувати свої стріли модно.
+item.armor.quiver.desc=Зберігай свої стріли стильно.
 item.armor.quiver.gold.name=Золота тула
 item.armor.quiver.gold.desc=Постачає нескінченну кількість магічних стріл.
 
@@ -197,11 +192,11 @@ item.ammo.snowball.desc=Метальні сніжні кульки.
 item.ammo.arrow.gold.name=Золота стріла
 item.ammo.arrow.gold.desc=Стріла із золотим вістрям, яка пронизує ворогів наскрізь.
 item.ammo.charge.explosive.name=Вибуховий заряд
-item.ammo.charge.explosive.desc=Вщерть наповнений порохом боєприпас для ручниці.
+item.ammo.charge.explosive.desc=Вщерть наповнений порохом боєприпас на ручницю.
 item.ammo.pebble.name=Камінець
 item.ammo.pebble.desc=Кавалок каменю знайдений в землі.
 item.ammo.fireball.name=Запалювальне ядро
-item.ammo.fireball.desc=Боєприпас для ручниці. Сіє вогонь по широкій площині.
+item.ammo.fireball.desc=Боєприпас на ручницю. Сіє вогонь по широкій площині.
 item.ammo.arrow.purple.name=Фіолетова стріла
 item.ammo.arrow.purple.desc=Га?! Звідки це в тебе?!
 
@@ -298,14 +293,6 @@ item.door.oak.name=Дерев'яні двері
 item.door.oak.desc=У кожному домі потрібна хоч одна.
 item.door.iron.name=Залізні двері
 item.door.iron.desc=Зміцнені двері, що відмикаються при подачі редстоунового сигналу.
-item.bucket.name=Відро
-item.bucket.desc=Призначене для перенесення різноманітних рідин.
-item.bucket.water.name=Відро води
-item.bucket.water.desc=Відро, наповнене синявою.
-item.bucket.lava.name=Відро лави
-item.bucket.lava.desc=Відро, наповнене розплавом глибинних мас. Пече!
-item.bucket.milk.name=Відро молока
-item.bucket.milk.desc=Корисно для кісток і зубів.
 
 item.minecart.name=Вагонетка
 item.minecart.desc=Залізний засіб пересування для вивчення глибин.
@@ -315,7 +302,7 @@ item.minecart.furnace.name=Вагонетка з піччю
 item.minecart.furnace.desc=Самостійно їде вперед, якщо заправити пальним.
 
 item.saddle.name=Сідло
-item.saddle.desc=Ідеально підійде для... Свині?
+item.saddle.desc=Ідеально підійде на... свиню?
 
 item.dust.redstone.name=Пил редстоуну
 item.dust.redstone.desc=Химерний пил, який нібито має властивості електропровідника.
@@ -417,25 +404,46 @@ item.bed.name=Ліжко
 item.bed.desc=Нарешті можна відпочити.
 item.repeater.name=Редстоуновий повторювач
 item.repeater.desc=Затримує редстоуновий сигнал.
+item.timer.name=Редстоуновий часомір
+item.timer.desc=Безперервно перемикається між двома виходами.
 item.map.name=Порожня мапа
-item.map.desc=Нанеси на мапу свій край!
+item.map.desc=Перенеси свій край на папір!
 item.leaves.name=Листя
 item.leaves.desc=Хрумкі й зелені.
 
 
 item.handcannon.unloaded.name=Ручниця
-item.handcannon.unloaded.desc=Відправляй ворогів і себе в політ!
+item.handcannon.unloaded.desc=Відправляй ворогів і себе політати!
 item.handcannon.loaded.name=Заряджена ручниця
-item.handcannon.loaded.desc=Все напоготові!
-
-item.bucket.icecream.name=Відро морозива
-item.bucket.icecream.desc=Холодний десерт, присипаний шоколадною стружкою та прикрашений вишенькою зверху.
+item.handcannon.loaded.desc=Озброєний і готовий до бою!
 
 item.label.name=Ярлик
 item.label.desc=Дозволяє іменувати речі й істот. Можна фарбувати.
 
 item.candle.soulwax.name=Свічка душ
 item.candle.soulwax.desc=Бура воскова свічка, яка горить аномальним вогнем.
+
+item.bucket.iron.icecream.name=Залізне відро морозива
+item.bucket.iron.icecream.desc=Холодний десерт, присипаний шоколадною стружкою та прикрашений вишенькою зверху.
+item.bucket.iron.name=Залізне відро
+item.bucket.iron.desc=Призначене для носіння та зберігання різноманітних рідин.
+item.bucket.iron.water.name=Залізне відро води
+item.bucket.iron.water.desc=Відро, наповнене синявою.
+item.bucket.iron.lava.name=Залізне відро лави
+item.bucket.iron.lava.desc=Відро, наповнене розплавом глибинних мас. Гаряче!
+item.bucket.iron.milk.name=Залізне відро молока
+item.bucket.iron.milk.desc=Корисно для кісток і зубів.
+
+item.bucket.steel.icecream.name=Сталеве відро морозива
+item.bucket.steel.icecream.desc=Холодний десерт, присипаний шоколадною стружкою та прикрашений вишенькою зверху.
+item.bucket.steel.name=Сталеве відро
+item.bucket.steel.desc=Призначене для носіння та зберігання різноманітних рідин.
+item.bucket.steel.water.name=Сталеве відро води
+item.bucket.steel.water.desc=Відро, наповнене синявою.
+item.bucket.steel.lava.name=Сталеве відро лави
+item.bucket.steel.lava.desc=Відро, наповнене розплавом глибинних мас. Гаряче!
+item.bucket.steel.milk.name=Сталеве відро молока
+item.bucket.steel.milk.desc=Корисно для кісток і зубів.
 
 item.jar.name=Банка
 item.jar.desc=Банка зі скла.
@@ -454,7 +462,7 @@ item.basket.desc=Плетена тара на зберігання предме�
 item.thatch.name=Солома
 item.thatch.desc=Пучок сухої трави.
 
-item.ore.raw.iron.name=Залізна руда
+item.ore.raw.steel.name=Залізна руда
 item.ore.raw.iron.desc=Шматок необробленого заліза. Можна переплавити у залізний зливок.
 item.ore.raw.gold.name=Золота руда
 item.ore.raw.gold.desc=Шматок необробленого золота. Можна переплавити у золотий зливок.
@@ -514,7 +522,7 @@ item.rope.desc=Достатньо міцна, щоб витримати вагу
 item.wand.monster.name=Чарівна паличка 
 item.wand.monster.desc=Магічний інструмент, що дозволяє власнику створювати живих істот.
 item.wand.nbt.name=NBT паличка
-item.wand.nbt.desc=A magical tool allowing the wielder to modify an object's data.
+item.wand.nbt.desc=Магічний інструмент, що дозволяє власнику змінювати стан об'єктів.
 
 item.paintbrush.name=Пензель
 item.paintbrush.desc=Може розфарбовувати блоки, якщо промокнути у фарбі.
@@ -546,4 +554,95 @@ item.statue.pigman.desc=Старовинна мармурова статуя, з
 item.dough.name=Тісто
 item.dough.desc=Сире тісто. Можна випікти у хліб.
 
+item.rubyglass.crystal.name=Рубіскло
+item.rubyglass.crystal.desc=Сколок зарядженого рубіскла, що сповнений енергії.
 
+item.armor.wolf.leather.name=Шкіряни вовчі обладунки
+item.armor.wolf.leather.desc=Захисти свого найкращого друга із цим м'яким шкіряним панцером.
+item.armor.wolf.chainmail.name=Кольчужні вовчі обладунки
+item.armor.wolf.chainmail.desc=Захисти свого найкращого друга із цим стійким кольчужним панцером. Можна латати.
+item.armor.wolf.iron.name=Залізні вовчі обладунки
+item.armor.wolf.iron.desc=Захисти свого найкращого друга із цим міцним залізним панцером.
+item.armor.wolf.diamond.name=Діамантові вовчі обладунки
+item.armor.wolf.diamond.desc=Захисти свого найкращого друга із цим блискучим діаматовий панцером.
+item.armor.wolf.gold.name=Золоті вовчі обладунки
+item.armor.wolf.gold.desc=Крась свого найкращого друга із цим вишуканим золотим панцером.
+item.armor.wolf.steel.name=Сталеві вовчі обладунки
+item.armor.wolf.steel.desc=Захисти свого найкращого друга із цим надійним сталевим пенцером.
+
+
+item.paintbrush.black.name=Чорний пензлик
+item.paintbrush.black.desc=Наповнений чорною фарбою і готове до використання!
+item.paintbrush.red.name=Червоний пензлик
+item.paintbrush.red.desc=Наповнений червоною фарбою і готове до використання!
+item.paintbrush.green.name=Зелений пензлик
+item.paintbrush.green.desc=Наповнений зеленою фарбою і готове до використання!
+item.paintbrush.brown.name=Коричневий пензлик
+item.paintbrush.brown.desc=Наповнений коричневою фарбою і готове до використання!
+item.paintbrush.blue.name=Синій пензлик
+item.paintbrush.blue.desc=Наповнений синьою фарбою і готове до використання!
+item.paintbrush.purple.name=Фіолетовий пензлик
+item.paintbrush.purple.desc=Наповнений фіолетовою фарбою і готове до використання!
+item.paintbrush.cyan.name=Бірюзовий пензлик
+item.paintbrush.cyan.desc=Наповнений бірюзовою фарбою і готове до використання!
+item.paintbrush.silver.name=Слітло-сірий пензлик
+item.paintbrush.silver.desc=Наповнений світло-сирою фарбою і готове до використання!
+item.paintbrush.gray.name=Сірий пензлик
+item.paintbrush.gray.desc=Наповнений сірю фарбою і готове до використання!
+item.paintbrush.pink.name=Рожевий пензлик
+item.paintbrush.pink.desc=Наповнений рожевий фарбою і готове до використання!
+item.paintbrush.yellow.name=Жовтий пензлик
+item.paintbrush.yellow.desc=Наповнений жовтий фарбою і готове до використання!
+item.paintbrush.lime.name=Лаймовий пензлик
+item.paintbrush.lime.desc=Наповнений лаймовою фарбою і готове до використання!
+item.paintbrush.lightblue.name=Блакитний пензлик
+item.paintbrush.lightblue.desc=Наповнений блакитною фарбою і готове до використання!
+item.paintbrush.magenta.name=Пуркурний пензлик
+item.paintbrush.magenta.desc=Наповнений пурпурний фарбою і готове до використання!
+item.paintbrush.orange.name=Помаранчевий пензлик
+item.paintbrush.orange.desc=Наповнений помаранчевою фарбою і готове до використання!
+item.paintbrush.white.name=Білий пензлик
+item.paintbrush.white.desc=Наповнений білою фарбою і готове до використання!
+
+item.statue.slate.name=Сланцева статуя
+item.statue.slate.desc=Декоративна статуя вирізьблена зі сланцю.
+
+item.statue.permafrost.name=Вічномерзна статуя
+item.statue.permafrost.desc=Декоративна статуя вирізьблена з морозного вічномезня.
+
+item.statue.netherrack.name=Незеракова статуя
+item.statue.netherrack.desc=Декоративна статуя вирізьблена з незераку.
+
+item.statue.gloomstone.name=Журам'яна статуя
+item.statue.gloomstone.desc=Декоративна статуя вирізьблена з похмурого каміння.
+
+item.ammo.arrow.flaming.name=Вогняна стріла
+item.ammo.arrow.flaming.desc=Стріла з легкозаймистою сіркою на накінечнику.
+
+item.sulfur.name=Сірка
+item.sulfur.desc=Їдка, легкозаймиста речовина, отримана з кислотного басуйну.
+
+item.bucket.iron.acid.name=Залізне відро кислоти
+item.bucket.iron.acid.desc=Відро, обережно наповенено вонючею кислотою.
+
+item.bucket.steel.acid.name=Сталеве відро кислоти
+item.bucket.steel.acid.desc=Велике відро, що обережно наповенено вонючою кислотою.
+
+//compatibility
+item.sulphur.name=Порох
+item.sulphur.desc=Вибухова речовина, отримана з непримиренного кріпера.
+
+item.tool.firestriker.name=Кресало
+item.tool.firestriker.desc=Навіть не здумай.
+
+item.bucket.icecream.name=Відро морозива
+item.bucket.icecream.desc=Холодний десерт, присипаний шоколадною стружкою та прикрашений вишенькою зверху.
+item.bucket.name=Відро
+item.bucket.desc=Призначене для носіння та зберігання різноманітних рідин.
+item.bucket.water.name=Відро води
+item.bucket.water.desc=Відро, наповнене синявою.
+item.bucket.lava.name=Відро лави
+item.bucket.lava.desc=Відро, наповнене розплавом глибинних мас. Гаряче!
+item.bucket.milk.name=Відро молока
+item.bucket.milk.desc=Корисно для кісток і зубів.
+//

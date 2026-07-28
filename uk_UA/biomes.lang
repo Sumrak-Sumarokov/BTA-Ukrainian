@@ -39,6 +39,7 @@ biome.overworld.legacy.forest=Бета діброва
 biome.overworld.legacy.seasonal_forest=Бета сезонний ліс
 biome.overworld.legacy.rainforest=Бета тропічний ліс
 
+biome.nether.legacy.hell=Бета пекло
 //compatibility 
 biome.rainforest=Тропічний ліс
 biome.swampland=Трясовина

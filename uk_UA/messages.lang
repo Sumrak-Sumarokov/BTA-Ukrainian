@@ -1,0 +1,64 @@
+messages.player_joined=%s joined the game.
+messages.player_left=%s left the game.
+messages.player_kicked=%s left the game.
+
+messages.illegal_characters=[SERVER] Illegal characters in chat message.
+
+messages.sleep.succeed=%s went to sleep. Sweet dreams!
+messages.sleep.enter_bed=%s went to bed.
+messages.sleep.exit_bed=%s has left their bed.
+messages.sleep.more_required=%s more players are required to sleep to skip to daytime.
+messages.sleep.more_required.singular=%s more player is required to sleep to skip to daytime.
+
+messages.bed.occupied=This bed is occupied.
+messages.bed.noSleep=You can only sleep at night or during thunderstorms.
+messages.bed.setSpawn=Respawn point set.
+messages.bed.notValid=Your home bed was missing or obstructed.
+messages.bed.noAllowSleeping=Sleeping is disabled.
+messages.bed.unsafeToSleep=It's not safe to sleep here.
+
+messages.wand.wrongmode=You must be in Creative mode to use this item!
+
+messages.flag.full=You have too many flags on this map!
+messages.flag.overwrite=Cannot overwrite an existing pattern.
+messages.flag.copied=Flag pattern copied.
+
+messages.death.mob.generic=%s died.
+messages.death.mob.lava=%s swam in lava.
+messages.death.mob.acid=%s bathed in acid.
+messages.death.mob.spikes=%s got impaled.
+messages.death.mob.fall=%s broke their legs.
+messages.death.mob.drowned=%s suffocated.
+messages.death.mob.fire=%s was incinerated.
+messages.death.mob.killed_by=%s was killed by %s.
+
+messages.death.player.generic=%s died mysteriously.
+messages.death.player.lava=%s got lost in the sauce.
+messages.death.player.acid=%s is no longer a solid.
+messages.death.player.spikes=%s fell for the trap.
+messages.death.player.fall=%s forgot to tie their laces.
+messages.death.player.drowned=%s is sleeping with the fishes.
+messages.death.player.fire=%s was cooked well done.
+messages.death.player.tnt=%s was killed by Popbob.
+messages.death.player.lightning=%s was grounded.
+messages.death.player.herobrine=%s was killed by Herobrine.
+messages.death.player.killed_by=%s was backstabbed by %s.
+messages.death.player.killed_by.zombie=%s became a zombie.
+messages.death.player.killed_by.zombie_pig=%s discovered mob mentality.
+messages.death.player.killed_by.creeper=%s didn't see the creeper.
+messages.death.player.killed_by.skeleton=%s was a victim of aimbot.
+messages.death.player.killed_by.spider=%s spent too much time on the web.
+messages.death.player.killed_by.ghast=%s didn't return the serve.
+messages.death.player.killed_by.slime=%s was slimed.
+messages.death.player.killed_by.wolf=%s got what they deserved.
+messages.death.player.killed_by.giant=%s was killed by- wait, what?!
+messages.death.player.killed_by.pig=%s is *really* bad at Minecraft.
+messages.death.player.killed_by.arrow=%s is a pincushion.
+messages.death.player.killed_by.arrow_player=%s got 360 noscoped by %s.
+messages.death.player.killed_by.arrow_suicide=%s lost a game of Russian roulette.
+messages.death.player.killed_by.arrow_golden=%s is Swiss cheese.
+messages.death.player.killed_by.arrow_golden_player=%s got pierced by %s.
+messages.death.player.killed_by.arrow_golden_suicide=%s got gold in their eye.
+messages.death.player.killed_by.cannonball=%s was detonated remotely.
+messages.death.player.killed_by.cannonball_player=%s was fragmented by %s.
+messages.death.player.killed_by.cannonball_suicide=%s jumped too high.

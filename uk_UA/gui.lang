@@ -7,6 +7,8 @@ gui.achievements.button.done=Готово
 gui.achievements.label.title=Досягнення
 gui.achievements.label.taken=Отримано!
 gui.achievements.label.requires=Потребує '%1$s'
+gui.achievements.label.secret=???
+gui.achievements.label.secret.desc=???
 gui.achievements.label.completion=%1$ виконано!
 
 gui.achievements.page.vanilla.name=Ванільні
@@ -81,7 +83,7 @@ gui.connecting.label.logging_in=Виконується авторизація...
 gui.controller_setup.button.back=Назад
 gui.controller_setup.label.no_controller_selected=Не обрано жодного контролера!
 
-gui.crafting.label.crafting=Крафтинг
+gui.crafting.label.crafting=Майстрування
 gui.crafting.label.inventory=Інвентар
 
 gui.create_world.label.title=Створити новий світ
@@ -115,8 +117,8 @@ gui.world_settings.label.select_world_type=Обрати тип світу
 gui.world_settings.label.world_type=Тип світу
 
 gui.select_server.page.internet.title=Глобальна мережа
-gui.select_server.page.favorites.title=Улюблені
-gui.select_server.page.history.title=Дієпис
+gui.select_server.page.favorites.title=Обране
+gui.select_server.page.history.title=Журнал
 gui.select_server.page.lan.title=Локальна мережа
 gui.select_server.page.direct_connect.title=Пряме з'єднання
 
@@ -168,7 +170,7 @@ gui.ingame_menu.button.photo_mode=Фоторежим...
 gui.ingame_menu.button.achievements=Досягнення
 gui.ingame_menu.button.statistics=Статистики
 
-gui.inventory.label.crafting=Крафтинг
+gui.inventory.label.crafting=Майстрування
 gui.inventory.creative.label.search=Шукати...
 
 gui.loading.label.generating=Створення світу...
@@ -191,7 +193,7 @@ gui.main_menu.label.downloading_resources.connection.error=Не вдалося �
 gui.main_menu.button.singleplayer=Гра наодинці
 gui.main_menu.button.multiplayer=Гра в мережі
 gui.main_menu.button.multiplayer.disabled=Гра в мережі (ще не дороблено!)
-gui.main_menu.button.asset_packs=Пакети текстур
+gui.main_menu.button.asset_packs=Пакети ресурсів
 gui.main_menu.button.options=Параметри...
 gui.main_menu.button.quit_game=Вийти з гри
 gui.main_menu.button.discord=Discord
@@ -215,23 +217,24 @@ gui.options.label.picking_keybinding=Натисни клавішу або кно
 gui.options.page.general.title=Загальне
 gui.options.page.general.button.open_worlds_folder=Відкрити теку світів
 gui.options.page.general.button.open_screenshots_folder=Відкрити теку знятків
-gui.options.page.general.button.edit_hud=Редагувати інтерфейс...
+gui.options.page.general.button.edit_hud=Відкрити редактор інтерфейсу...
 gui.options.page.general.category.gameplay=Ігролад
 gui.options.page.general.category.user_interface=Інтерфейс користувача
 gui.options.page.general.category.miscellaneous=Інше
 
 gui.options.page.player.title=Гравець
 gui.options.page.player.category.player=Гравець
-gui.options.page.audio.category.debug=Зневадження
 
 gui.options.page.audio.title=Аудіо
 gui.options.page.audio.category.audio=Аудіо
+gui.options.page.audio.category.debug=Зневадження
+gui.options.page.audio.reload=Увімкнути рушій відтворення звуку
 
 gui.options.page.accessibility.title=Доступність
 gui.options.page.accessibility.category.accessibility=Доступність
 
 gui.options.page.video.title=Відео
-gui.options.page.video.category.graphics=Графіка
+gui.options.page.video.category.display=Зображення
 gui.options.page.video.category.visuals=Візуальні ефекти
 gui.options.page.video.category.post_processing=Постобробка зображення
 gui.options.page.video.category.performance=Продуктивність
@@ -245,6 +248,7 @@ gui.options.page.controls.category.controller=Контролер
 gui.options.page.controls.category.interactions=Взаємодії
 gui.options.page.controls.category.movement=Пересування
 gui.options.page.controls.category.user_interface=Інтерфейс користувача
+gui.options.page.controls.category.hud_editor=Редактор інтерфейсу
 gui.options.page.controls.category.hotbar=Панель швидкого доступу
 gui.options.page.controls.category.view=Поле зору
 gui.options.page.controls.category.miscellaneous=Інше
@@ -270,20 +274,29 @@ gui.options.page.debug.category.settings=Налаштування
 gui.options.page.debug.category.test=Проба
 gui.options.page.debug.button.open.model_viewer=Відкрити глядач моделей
 gui.options.page.debug.button.open.biome_finder=Відкрити шукач коду генерації
-gui.options.page.debug.button.open.datadumper=Виконати скид даних
+gui.options.page.debug.button.open.datadumper=Виконати вивантаження даних
+gui.options.page.debug.button.dump.wiki=Вивантажити відформатовані дані Wiki
+gui.options.page.debug.button.dump.invsprite=Вивантажити PNG образи інвентарю
+gui.options.page.debug.button.dump.invsprite_apng=Вивантажити анімовані PNG образи інвентарю
+gui.options.page.debug.button.dump.invsprite.tooltip=Завантажити світ першим: \n Кольори біомів та сезонів відмальовуватимуться під час гри.
 gui.options.page.debug.button.open.sound_test=Відкрити перевірку звуку
 gui.options.page.debug.button.open.texture_viewer=Відкрити глядач текстур
 gui.options.page.debug.button.open.font_tester=Відкрити перевірку шрифту
 gui.options.page.debug.button.open.nbt_tester=Перевірка редагування NBT-даних
 gui.options.page.debug.button.open.achievements=Відкрити список досягнень
-gui.options.page.debug.button.wipestats=Видалити статистику
-gui.options.page.debug.button.unlockedall=Розблокувати всю статистику
+gui.options.page.debug.button.wipestats=Видалити дані гравця
+gui.options.page.debug.button.unlockedall=Розблокувати всі дані гравця
 gui.options.page.debug.button.cheat=Увімкнути чити
 gui.options.page.debug.button.crash.soft=Спровокувати помилку
 gui.options.page.debug.button.crash.hard=Спровокувати фатальну помилку
 gui.options.page.debug.button.music.skip=Примусово ввімкнути атмосферну музику
 gui.options.page.debug.button.garbage_collect=Запустити збирач сміття
 gui.options.page.debug.button.reload_commands=Перезавантажити команди
+gui.options.page.debug.button.reset_hud_onboarding=Скинути підказки редактора інтерфейсу 
+
+gui.options.page.hidden.title=Приховані налаштування
+gui.options.page.hidden.category.general=Загальні
+gui.options.page.hidden.category.general.userinterface=Інтерфейс користувача
 
 gui.options.page.search.title=Пошук
 
@@ -293,6 +306,21 @@ gui.options.difficultylock.warning.1=Ти точно хочеш зафіксув
 gui.options.difficultylock.warning.2=складність цього світу?
 gui.options.difficultylock.warning.3=(Назавжди)
 
+gui.options.hudeditor.onboarding.welcome=Ласкаво прошу до редактора інтерфейсу!
+gui.options.hudeditor.onboarding.select=Для виділення елемента інтерфейсу, натисни '%1$s' 
+gui.options.hudeditor.onboarding.drag=Для перетягування елемета інтерфейсу, затисни '%1$s'
+gui.options.hudeditor.onboarding.context=Для відкриття списку налаштувань, натисни '%1$s' поверх елемета інтерфейсу
+gui.options.hudeditor.onboarding.nudge=Для акутарного переміщення елемента інтерфейсу, натисни '%1$s'
+gui.options.hudeditor.onboarding.nudge_fast=Для швидшого акуратного переміщення, затисни '%1$s'
+gui.options.hudeditor.onboarding.reset=Для відновлення типового укладу елементів інтерфейсу, натисни '%1$s'
+gui.options.hudeditor.onboarding.exit=Для виходу з редактора інтерфейсу, натисни '%1$s'
+gui.options.hudeditor.onboarding.reopen=Щоби побачити це меню знову, натисни '%1$s'
+gui.options.hudeditor.onboarding.begin=Тицьніть, щоб розпочати
+gui.options.hudeditor.snap_to_fill=Вписання
+gui.options.hudeditor.scale=Розмір інтерфейсу
+gui.options.hudeditor.chat_width=Ширина чату
+gui.options.hudeditor.chat_height=Висота чату
+
 gui.sound_test.label.title=Перевірка звуку
 gui.sound_test.label.repo=Сховище звуків: %s
 gui.sound_test.label.id=ID: %s
@@ -301,10 +329,10 @@ gui.sound_test.label.url=Посилання: %s
 gui.sound_test.label.select_repo=Обрати сховище:
 gui.sound_test.label.select_entry=Обрати запис:
 gui.sound_test.button.done=Готово
-gui.sound_test.button.play=Відтворити
-gui.sound_test.button.play_stream=Відкрити Steam
+gui.sound_test.button.play=Руш
+gui.sound_test.button.play_stream=Відтворити стрим
 gui.sound_test.button.reload=Перезавантажити
-gui.sound_test.button.stop=Припинити
+gui.sound_test.button.stop=Стоп
 
 gui.texture_viewer.label.title=Глядач текстур
 
@@ -328,7 +356,7 @@ gui.photo_mode.button.intensity=Інтенсивність: %s
 gui.select_server.label.title=Обрати сервер
 gui.select_server.label.delete_title=Видалити сервер
 gui.select_server.label.delete_confirm.1=Ти певен, що хочеш видалити цей сервер?
-gui.select_server.label.delete_confirm.2='%s' буде втрачено назавжди! (На дуже-дуже довго!)
+gui.select_server.label.delete_confirm.2='%s' буде втрачено назавжди! \n (На дуже-дуже довго!)
 gui.select_server.label.edit.1=Редагувати сервер
 gui.select_server.label.edit.2=Назва сервера
 gui.select_server.label.edit.3=IP сервера
@@ -351,15 +379,15 @@ gui.select_server.popup.add.prompt.name=Назва серверу:
 gui.select_server.popup.add.prompt.ip=IP адреса:
 gui.select_server.popup.add.button.save=Зберегти
 gui.select_server.popup.add.button.cancel=Скасувати
-gui.select_server.popup.add.showip.on=Показувати IP: Увімк.
-gui.select_server.popup.add.showip.off=Показувати IP: Вимк.
+gui.select_server.popup.add.showip.on=Показувати IP
+gui.select_server.popup.add.showip.off=Приховати IP
 
 gui.select_server.popup.edit.prompt.name=Назва серверу:
 gui.select_server.popup.edit.prompt.ip=IP адреса:
 gui.select_server.popup.edit.button.save=Зберегти
 gui.select_server.popup.edit.button.cancel=Скасувати
-gui.select_server.popup.edit.showip.on=Показувати IP: Увімк
-gui.select_server.popup.edit.showip.off=Показувати IP: OFF
+gui.select_server.popup.edit.showip.on=Показувати IP
+gui.select_server.popup.edit.showip.off=Приховати IP
 
 gui.select_server.popup.direct.prompt.ip=IP адреса:
 gui.select_server.popup.direct.button.connect=Під'єднатися
@@ -372,7 +400,7 @@ gui.select_world.label.dimension_corrupted=Файли виміру було по
 gui.select_world.label.outdated=Застаріле - неможливо запустити (поки що!)
 gui.select_world.label.delete_title=Видалити світ
 gui.select_world.label.delete_confirm.1=Ти певен що хочеш видалити цей світ?
-gui.select_world.label.delete_confirm.2='%s' буде втрачено назавжди! (На дуже-дуже довго!)
+gui.select_world.label.delete_confirm.2='%s' буде втрачено назавжди! \n (На дуже-дуже довго!)
 gui.select_world.label.rename_title=Перейменувати світ
 gui.select_world.label.world_name=Назва світу
 gui.select_world.label.cheats=Чити

@@ -52,8 +52,6 @@ tile.permafrost.carved.name=Різьблений вічномерзень
 tile.permafrost.carved.desc=Гладкий вічномерзень з вирізьбленим візерунком посередині.
 tile.netherrack.carved.name=Різьблений незерак
 tile.netherrack.carved.desc=Гладкий незерак з вирізьбленим візерунком посередині.
-tile.gloomstone.carved.name=чорнит Мороцит
-tile.gloomstone.carved.desc=Polished Gloomstone with lines hewn through the middle.
 
 tile.planks.oak.name=Дерев'яні дошки
 tile.planks.oak.desc=Викривана внутрішня частина колоди.
@@ -175,7 +173,7 @@ tile.fencegate.planks.oak.painted.white.name=Біла дерев'яна хвір
 tile.fencegate.planks.oak.painted.white.desc=Дерев'яні дверцята, забарвлені в білий.
 
 tile.bookshelf.planks.oak.name=Книжкова полиця
-tile.bookshelf.planks.oak.desc=Якесь вмістище знань.
+tile.bookshelf.planks.oak.desc=Вмістище знань.
 
 tile.wool.name=Вовна
 tile.wool.desc=Га?! Звідки це в тебе?!
@@ -220,10 +218,6 @@ tile.brick.stone.polished.mossy.name=Моховита полірована ка�
 tile.brick.stone.polished.mossy.desc=Укладені поліровані кам'яні цеглини, що поросли мохом. 
 tile.brick.sandstone.name=Пісковикова цегла
 tile.brick.sandstone.desc=Укладені цеглини з пісковику.
-tile.brick.gold.name=Золота цегла
-tile.brick.gold.desc=Укладені золоті цеглини.
-tile.brick.lapis.name=Лазуритова цегла
-tile.brick.lapis.desc=Укладені цеглини з лазуриту.
 tile.brick.basalt.name=Базальтова цегла
 tile.brick.basalt.desc=Укладені базальтові цеглини.
 tile.brick.limestone.name=Вапнякова цегла
@@ -238,10 +232,23 @@ tile.brick.stone.name=Кам'яна цегла
 tile.brick.stone.desc=Укладені кам'яні цеглини.
 tile.brick.permafrost.name=Вічномерзла цегла 
 tile.brick.permafrost.desc=Укладені вічномерзлі цеглини.
+
+tile.brick.rubyglass.name=Rubyglass Bricks
+tile.brick.rubyglass.desc=Stacked bricks of rubyglass.
+tile.brick.diamond.name=Diamond Bricks
+tile.brick.diamond.desc=Stacked bricks of diamond.
 tile.brick.iron.name=Залізна цегла
 tile.brick.iron.desc=Укладені залізні цеглини.
+tile.brick.gold.name=Золота цегла
+tile.brick.gold.desc=Укладені золоті цеглини.
+tile.brick.lapis.name=Лазуритова цегла
+tile.brick.lapis.desc=Укладені цеглини з лазуриту.
 tile.brick.steel.name=Сталева цегла
 tile.brick.steel.desc=Укладені сталеві цеглини.
+tile.brick.olivine.name=Olivine Bricks**
+tile.brick.olivine.desc=Stacked bricks of olivine.
+tile.brick.quartz.name=Quartz Bricks
+tile.brick.quartz.desc=Stacked bricks of quartz.
 
 tile.slab.planks.oak.name=Дерев'яна плита
 tile.slab.planks.oak.desc=Плита з дерев'яних дощок.
@@ -253,6 +260,8 @@ tile.slab.brick.stone.polished.name=Плита з полірованої кам'
 tile.slab.brick.stone.polished.desc=Полірована кам'яна цегляна плита.
 tile.slab.stone.carved.name=Плита з полірованого каменю
 tile.slab.stone.carved.desc=Полірована кам'яна плита.
+tile.slab.slate.polished.name=Polished Slate Slab**
+tile.slab.slate.polished.desc=A slab of polished slate
 tile.slab.brick.marble.name=Плита з мармурової цегли
 tile.slab.brick.marble.desc=Мармурова цегляна плита.
 tile.slab.brick.clay.name=Плита з глиняної цегли
@@ -283,6 +292,8 @@ tile.slab.basalt.carved.name=Плита з полірованого базаль
 tile.slab.basalt.carved.desc=Полірована базальтова плита.
 tile.slab.permafrost.carved.name=Плита з полірованого вічномерзня
 tile.slab.permafrost.carved.desc=Полірована вічномерзла плита.
+tile.slab.slate.carved.name=Polished Slate Slab**
+tile.slab.slate.carved.desc=A slab of polished slate.
 
 tile.slab.planks.oak.painted.name=Містична дерев'яна плита
 tile.slab.planks.oak.painted.desc=Га?! Звідки це в тебе?!
@@ -324,14 +335,23 @@ tile.slab.brick.sandstone.name=Плита з пісковикової цегли
 tile.slab.brick.sandstone.desc=Пісковикова цегляна плита.
 tile.slab.brick.permafrost.name=Плита з вічномерзлої цегли 
 tile.slab.brick.permafrost.desc=Вічномерзла цегляна плита.
+
+tile.slab.brick.rubyglass.name=Rubyglass Brick Slab
+tile.slab.brick.rubyglass.desc=A slab of rubyglass bricks.
+tile.slab.brick.diamond.name=Diamond Brick Slab
+tile.slab.brick.diamond.desc=A slab of diamond bricks
 tile.slab.brick.iron.name=Плита з залізної цегли
 tile.slab.brick.iron.desc=Залізна цегляна плита.
 tile.slab.brick.gold.name=Плита з золотої цегли
 tile.slab.brick.gold.desc=Золота цегляна плита.
-tile.slab.brick.steel.name=Плита зі сталевої цегли
-tile.slab.brick.steel.desc=Сталева цегляна плита.
 tile.slab.brick.lapis.name=Плита з лазуритової цегли
 tile.slab.brick.lapis.desc=Лазуритова цегляна плита.
+tile.slab.brick.steel.name=Плита зі сталевої цегли
+tile.slab.brick.steel.desc=Сталева цегляна плита.
+tile.slab.brick.olivine.name=Olivine Brick Slab
+tile.slab.brick.olivine.desc=A slab of olivine bricks.
+tile.slab.brick.quartz.name=Quartz Brick Slab
+tile.slab.brick.quartz.desc=A slab of quartz bricks.
 
 tile.stairs.planks.oak.name=Дерев'яні сходи
 tile.stairs.planks.oak.desc=Дерев'яна споруда для стрімкого вертикального пересування.
@@ -367,14 +387,23 @@ tile.stairs.brick.sandstone.name=Сходи з пісковикової цегл
 tile.stairs.brick.sandstone.desc=Споруда з пісковикової цегли для стрімкого вертикального пересування.
 tile.stairs.brick.permafrost.name=Сходи з вічномерзлої цегли
 tile.stairs.brick.permafrost.desc=Споруда з вічномерзлої цегли для стрімкого вертикального пересування.
+
+tile.stairs.brick.rubyglass.name=Rubyglass Brick Stairs**
+tile.stairs.brick.rubyglass.desc=Rubyglass brick block used for rapid vertical movement.
+tile.stairs.brick.diamond.name=Diamond Brick Stairs
+tile.stairs.brick.diamond.desc=Diamond brick block used for rapid vertical movement.
 tile.stairs.brick.iron.name=Сходи з залізної цегли
 tile.stairs.brick.iron.desc=Споруда з залізної цегли для стрімкого вертикального пересування.
 tile.stairs.brick.gold.name=Сходи з золотої цегли
 tile.stairs.brick.gold.desc=Споруда з золотої цегли для стрімкого вертикального пересування.
-tile.stairs.brick.steel.name=Сходи зі сталевої цегли
-tile.stairs.brick.steel.desc=Споруда зі сталевої цегли для стрімкого вертикального пересування.
 tile.stairs.brick.lapis.name=Сходи з лазуритової цегли
 tile.stairs.brick.lapis.desc=Споруда з лазуритової цегли для стрімкого вертикального пересування.
+tile.stairs.brick.steel.name=Сходи зі сталевої цегли
+tile.stairs.brick.steel.desc=Споруда зі сталевої цегли для стрімкого вертикального пересування.
+tile.stairs.brick.olivine.name=Olivine Brick Stairs
+tile.stairs.brick.olivine.desc=Olivine brick block used for rapid vertical movement.
+tile.stairs.brick.quartz.name=Quartz Brick Stairs
+tile.stairs.brick.quartz.desc=Quartz brick block used for rapid vertical movement.
 
 tile.stairs.planks.oak.painted.name=Містичні дерев'яні сходи
 tile.stairs.planks.oak.painted.desc=Га?! Звідки це в тебе?!
@@ -463,16 +492,15 @@ tile.sand.name=Пісок
 tile.sand.desc=Навіть штані повні піску.
 tile.gravel.name=Рінь
 tile.gravel.desc=Безладна колекція камінчиків.
-tile.brimsand.name=Пісок Краю**
+tile.brimsand.name=Жупний пісок**
 tile.brimsand.desc=Випалений сірчаний пороховмістний пісок.
 
 tile.bedrock.name=Бедрок
 tile.bedrock.desc=Найтвердіша речовина, яку колись бачив світ.
 tile.boneshale.name=Кістковий сланець
 tile.boneshale.desc=Неймовірно міцна біла порода, вирвана з найглибших надр.
-tile.boneshale.cobbled.name=fractured Кістковий сланець
+tile.boneshale.cobbled.name=fractured Кістковий сланець**
 tile.boneshale.cobbled.desc=Cobbles of boneshale brought to the surface by intense tectonic activity.
-
 
 tile.fluid.water.flowing.name=Біжуча вода
 tile.fluid.water.flowing.desc=Потече, якщо розмістити.
@@ -691,6 +719,22 @@ tile.torch.redstone.active.desc=Видає постійний редстоуно
 
 tile.button.stone.name=Кам'яна кнопка
 tile.button.stone.desc=Видає короткий редстоуновий сигнал при натисканні.
+tile.button.basalt.name=Basalt Button**
+tile.button.basalt.desc=Emits a brief redstone signal when pressed.
+tile.button.limestone.name=Limestone Button
+tile.button.limestone.desc=Emits a brief redstone signal when pressed.
+tile.button.granite.name=Granite Button
+tile.button.granite.desc=Emits a brief redstone signal when pressed.
+tile.button.permafrost.name=Permafrost Button
+tile.button.permafrost.desc=Emits a brief redstone signal when pressed.
+tile.button.netherrack.name=Netherrack Button
+tile.button.netherrack.desc=Emits a brief redstone signal when pressed.
+tile.button.gloomstone.name=Gloomstone Button
+tile.button.gloomstone.desc=Emits a brief redstone signal when pressed.
+tile.button.sandstone.name=Sandstone Button
+tile.button.sandstone.desc=Emits a brief redstone signal when pressed.
+tile.button.brimstone.name=Brimstone Button
+tile.button.brimstone.desc=Emits a brief redstone signal when pressed
 tile.button.planks.name=Дерев'яна кнопка
 tile.button.planks.desc=Видає короткий редстоуновий сигнал при натисканні.
 
@@ -734,10 +778,40 @@ tile.lever.cobble.stone.desc=Перемикач редстоунового си�
 
 tile.pressureplate.stone.name=Кам'яна натискна плита
 tile.pressureplate.stone.desc=Видає редстоуновий сигнал тільки під живими істотами. 
+tile.pressureplate.basalt.name=Basalt Pressure Plate**
+tile.pressureplate.basalt.desc=Emits a redstone signal when living creatures step on it.
+tile.pressureplate.limestone.name=Limestone Pressure Plate
+tile.pressureplate.limestone.desc=Emits a redstone signal when living creatures step on it.
+tile.pressureplate.granite.name=Granite Pressure Plate
+tile.pressureplate.granite.desc=Emits a redstone signal when living creatures step on it.
+tile.pressureplate.permafrost.name=Permafrost Pressure Plate
+tile.pressureplate.permafrost.desc=Emits a redstone signal when living creatures step on it.
+tile.pressureplate.netherrack.name=Netherrack Pressure Plate
+tile.pressureplate.netherrack.desc=Emits a redstone signal when living creatures step on it.
+tile.pressureplate.gloomstone.name=Gloomstone Pressure Plate
+tile.pressureplate.gloomstone.desc=Emits a redstone signal when living creatures step on it.
+tile.pressureplate.sandstone.name=Sandstone Pressure Plate
+tile.pressureplate.sandstone.desc=Emits a redstone signal when living creatures step on it.
+tile.pressureplate.brimstone.name=Brimstone Pressure Plate
+tile.pressureplate.brimstone.desc=Emits a redstone signal when living creatures step
+
 tile.pressureplate.planks.oak.name=Дерев'яна натискна плита
-tile.pressureplate.planks.oak.desc=Видає редстоуновий сигнал від чого завгодно. 
+tile.pressureplate.planks.oak.desc=Видає редстоуновий сигнал від чого завгодно.
+ 
 tile.pressureplate.cobble.stone.name=Круглякова натискна плита
 tile.pressureplate.cobble.stone.desc=Видає редстоуновий сигнал тільки під гравцем.
+tile.pressureplate.cobble.basalt.name=Cobbled Basalt Pressure Plate**
+tile.pressureplate.cobble.basalt.desc=Emits a redstone signal when players step on it.
+tile.pressureplate.cobble.limestone.name=Cobbled Limestone Pressure Plate
+tile.pressureplate.cobble.limestone.desc=Emits a redstone signal when players step on it.
+tile.pressureplate.cobble.granite.name=Cobbled Granite Pressure Plate
+tile.pressureplate.cobble.granite.desc=Emits a redstone signal when players step on it.
+tile.pressureplate.cobble.permafrost.name=Cobbled Permafrost Pressure Plate
+tile.pressureplate.cobble.permafrost.desc=Emits a redstone signal when players step on it.
+tile.pressureplate.cobble.netherrack.name=Cobbled Netherrack Pressure Plate
+tile.pressureplate.cobble.netherrack.desc=Emits a redstone signal when players step on it.
+tile.pressureplate.cobble.gloomstone.name=Cobbled Gloomstone Pressure Plate
+tile.pressureplate.cobble.gloomstone.desc=Emits a redstone signal when players step
 
 tile.pressureplate.planks.oak.painted.name=Містична дерев'яна натискна плита
 tile.pressureplate.planks.oak.painted.desc=Га?! Звідки це в тебе?!
@@ -788,14 +862,20 @@ tile.piston.base.name=Толок
 tile.piston.base.desc=Може штовхати блоки, але не тягнути їх.
 tile.piston.base.sticky.name=Липкий толок
 tile.piston.base.sticky.desc=Може штовхати і тягнути блоки.
+tile.piston.base.steel.name=Сталевий толок
+tile.piston.base.steel.desc=Штовхає блоки та істот із величезною силою.
+tile.piston.base.detached.name=Detached Piston
+tile.piston.base.detached.desc=Emotionally unavailable.
+tile.piston.base.sticky.detached.name=Detached Sticky Piston
+tile.piston.base.sticky.detached.desc=Emotionally unavailable and covered in slime.
+tile.piston.base.steel.detached.name=Detached Steel Piston
+tile.piston.base.steel.detached.desc=Emotionally unavailable, but made of steel.
 tile.piston.head.name=Маківка толка
 tile.piston.head.desc=Робоча частина толка. 
+tile.piston.head.steel.name=Маківка сталевого толка
+tile.piston.head.steel.desc=Робоча частина сталевого толка.
 tile.piston.moving.name=Рушій толка
 tile.piston.moving.desc=Невидима рухома частина толка.
-tile.piston.base.steel.name=Посилений толок
-tile.piston.base.steel.desc=Штовхає блоки та істот із величезною силою.
-tile.piston.head.steel.name=Маківка посиленого толка
-tile.piston.head.steel.desc=Робоча частина сталевого толка.
 
 tile.noteblock.name=Нотний блок
 tile.noteblock.desc=При активації грає музичну ноту.
@@ -1044,10 +1124,10 @@ tile.pumpkin.redstone.desc=Жовтогарячий гарбуз з лячним
 
 tile.cobble.netherrack.name=Кругляковий незерак
 tile.cobble.netherrack.desc=Багряний камінь, який здатен горіти вічним вогнем.
-tile.cobble.netherrack.igneous.name=Розпечений незерак
-tile.cobble.netherrack.igneous.desc=Пекельний жар змусив цей блок горіти із самого ядра.
-tile.cobble.netherrack.mossy.name=Моховитий незерак
-tile.cobble.netherrack.mossy.desc=Незерак, вкритий у павутинні з .
+tile.magma.name=Magma**
+tile.magma.desc=Lava that's been partially cooled. Melts in extreme heat.
+tile.cobble.netherrack.crystalline.name=Crystalline Netherrack
+tile.cobble.netherrack.crystalline.desc=Netherrack, covered in a web of rubyglass.
 tile.netherrack.name=Незерак
 tile.netherrack.desc=Багряний камінь, згладжений часом і пекельним жаром.
 tile.brick.netherrack.name=Незеракова цегла
@@ -1081,7 +1161,7 @@ tile.stairs.brick.gloomstone.name=Gloomstone Brick Stairs
 tile.stairs.brick.gloomstone.desc=gloomstone brick block used for rapid vertical movement.
 
 tile.soulsand.name=Пісок душ
-tile.soulsand.desc=Розкришені стародавні кістки. Ти відчуваєш, як їх тягар лягає тобі на плечі. Ти відчуваєш, як вага їх гріхів сповільнює тебе.
+tile.soulsand.desc=Розкришені стародавні кістки. Ти відчуваєш, як їх тягар лягає тобі на плечі.
 tile.soulschist.name=Сланець душ
 tile.soulschist.desc=Огидне місиво зі старовинних кісток, злучені під дією тиску, тепла й часу.
 
@@ -1252,6 +1332,8 @@ tile.permafrost.polished.name=Полірований вічномерзень
 tile.permafrost.polished.desc=Відшліфований блок вічномерзню.
 tile.netherrack.polished.name=Полірований незерак
 tile.netherrack.polished.desc=Відшліфований блок незераку.
+tile.gloomstone.polished.name=Polished Gloomstone**
+tile.gloomstone.polished.desc=A polished block of gloomstone.
 
 tile.candle.soulwax.name=Свічка душ
 tile.candle.soulwax.desc=Бура воскова свічка, яка горить аномальним вогнем.
@@ -1431,11 +1513,11 @@ tile.matcher.desc=Порівнює блок, що попереду, з блок�
 tile.matcher.active.name=Активований порівнювач
 tile.matcher.desc=Порівнює блок, що попереду, з блоком, що позаду.
 
-tile.log.scorched.name=Випалена колода Scorched Log 
-tile.log.scorched.desc=Обвуглена, під дією сильного жару, колода. A severely burnt log, charred black by intense heat.
+tile.log.scorched.name=Випалена колода
+tile.log.scorched.desc=Обвуглена, під дією сильного жару, колода.
 
-tile.brimstone.name=Пісковик краюBrimstone 
-tile.brimstone.desc=Compacted brimsand.
+tile.brimstone.name=Жупел
+tile.brimstone.desc=Спресований жупний пісок.
 
 tile.slab.brimstone.name=Brimstone Slab
 tile.slab.brimstone.desc=A slab of brimstone.
@@ -1478,7 +1560,6 @@ tile.ember.desc=Smoldering, explosive remnants of a forgotten world.
 tile.acid.name=Acid
 tile.acid.desc=A highly corrosive, sulfuric fluid.
 
-
 //compatibility
 tile.comparer.name=Порівнювач
 tile.comparer.desc=Порівнює блоки попереди й позаду.
@@ -1487,4 +1568,16 @@ tile.comparer.desc=Порівнює блоки попереди й позаду.
 
 tile.sulfur.name=Сірка
 tile.sulfur.desc=Жовта.
+
+//7.3
+tile.cobble.netherrack.igneous.name=Розпечений незерак
+tile.cobble.netherrack.igneous.desc=Пекельний жар змусив цей блок горіти із самого ядра.
+tile.cobble.netherrack.mossy.name=Моховитий незерак
+tile.cobble.netherrack.mossy.desc=Незерак, вкритий у чомусь на кшталт моху.
+
+//they seem to dissappear before the v8.0 release
+tile.gloomstone.carved.name=Різьблений журамінь
+tile.gloomstone.carved.desc=Гладкий журамінь з вирізьбленим візерунком посередині.
+tile.slate.carved.name=Різьблений сланець
+tile.slate.carved.desc=Дві плити полірованого сланцю.
 //
