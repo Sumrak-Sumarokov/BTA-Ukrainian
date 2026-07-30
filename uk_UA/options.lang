@@ -42,11 +42,14 @@ options.fancyGraphics=Графіка
 options.connectedGlass=Об'єднана текстура скла
 options.graphics.fancy=Красива
 options.graphics.fast=Швидка
-options.guiScale=Розмір інтерфейсу
+options.guiScale=Загальний розмір інтерфейсу
 options.guiScale.auto=Автоматичний
+options.guiScale.disabled=Вимкнений
 options.guiScale.small=Маленький
 options.guiScale.normal=Звичайний
 options.guiScale.large=Великий
+options.guiScaleOverride=Ігнорувати розмір інтерфейсу
+options.guiScaleOverride.disabled=Вимкнено
 options.advancedOpengl=Розширений OpenGL
 options.treeShadows=Тіні в листві
 options.transparencyDepthCheck=Перевірка глибини прозорих блоків
@@ -57,6 +60,8 @@ options.particleQuality.none=Жодних
 options.particleCap=Максимальна кільк. часток
 options.particleRenderDistance=Дальність відмальовки часток
 options.particleRenderDistance.default=Типова
+options.cloudRenderDistance=Дальність відмальовки хмар
+options.cloudRenderDistance.default=Типова
 options.chunkRebuilds=Кільк. перебудов чанків на кадр
 options.frustumCulling=Оптимізація невидимих обʼєктів
 options.entityShadows=Тіні істот
@@ -94,6 +99,7 @@ options.animations.procedural=Процедурні
 options.animations.off=Вимк.
 options.autoHit=Автоатака
 options.easyBridge=Легке мостобудування
+options.easyBridgeOutline=Видима обводка під час легкого мостобудівництва
 options.controller=Контролер...
 options.controllerSensitivity=Чутливість камери
 options.controllerMenuSensitivity=Чутливість у меню
@@ -117,13 +123,13 @@ options.cloudHeight.default=Типова
 options.entityRenderDistance=Відстань відмальовки істот
 options.entityRenderDistance.default=Типова
 options.armorDurabilityOverlay=Показувати міцність броні
-options.overlayShowCoords=Координати
-options.overlayShowDirection=Напрям
-options.overlayShowTime=Час доби
-options.overlayShowSeason=Сезон
-options.overlayShowWeather=Погода
-options.overlayShowBiome=Біом
-options.rawMouseInput=Пряме керування мишею
+options.overlayShowCoords=Показувати координати
+options.overlayShowDirection=Показувати напрямПоказувати к
+options.overlayShowTime=Показувати чаПоказувати н доби
+options.overlayShowSeason=ПоказуваПоказувати чи сезон
+options.overlayShowWeather=Показувати пПоказувати сгоду
+options.overlayShowBiome=ПоказуватПоказувати п біоу
+options.rawMouseInput=Пряме керування мПоказувати бшею
 options.heldItemCountOverlay=Показувати кількість предметів у руці
 options.swapCraftingButtons=Поміняти місцями кнопки крафтингу
 options.fullscreen=Повноекранний режим
@@ -132,10 +138,8 @@ options.borderlessFullscreen.unavailable=Недоступно
 options.enableVbos=Увімкнути VBO'шки
 options.discordRichPresence=Показувати інтерактивний статус активності в Discord
 options.blockOutlineWidth=Товщина обводу блоків
-options.heldItemTooltips=Показувати назву предметів в руці
-options.colorCorrection=Корекція кольору
-options.colorCorrection.low=Низька
-options.colorCorrection.high=Висока
+options.colorCorrectionOverworld=Корекція кольорів надземного світу
+options.colorCorrectionNether=Корекція кольорів Незеру
 options.sneakToggle=Увімкнути перемикання підкрадання
 options.tooltipStyle=Стиль підказок
 options.font=Шрифт
@@ -222,6 +226,10 @@ options.musicFrequency.frequent=Часто
 options.musicFrequency.default=Типова
 options.musicFrequency.unusual=Незвич.
 options.musicFrequency.rare=Рідко
+options.selectedSoundtrack=Музичний супровід
+options.selectedSoundtrack.minecraft=Minecraft
+options.selectedSoundtrack.better_than_adventure=BTA!
+options.selectedSoundtrack.mixed=Суміш
 
 options.fov.modification=Ефекти поля зору
 options.screen.motion.effects=Ефекти заколисування
@@ -244,7 +252,7 @@ options.tooltipStyle.redstone_goggles=Редстоун
 options.tooltipStyle.creep-o-vision=Крипер
 options.tooltipStyle.steve=Стів
 
-options.font.default=Стандартний
+options.font.default=Типовий
 options.font.unicode=Unicode
 options.font.monospace=Monospace
 
@@ -261,6 +269,91 @@ options.player.hurtsound=Звуки болю
 options.player.hurtsound.masculine=Чоловічий
 options.player.hurtsound.feminine=Жіночий
 options.player.hurtsound.neutral=Нейтральний
+
+options.hideHeldItemCount=Приховати
+options.hideDynamicTooltip=Приховати
+options.hideHealthBar=Приховати
+options.hideOxygenBar=Приховати
+options.hideFireBar=Приховати
+options.hideAcidBar=Приховати
+options.hideVehicleBar=Приховати
+
+options.hideHelmetBar=Приховати
+options.hideHelmetBar.never=Ніколи
+options.hideHelmetBar.when_not_wearing=Коли не використовується
+options.hideHelmetBar.always=Завжди
+
+options.hideChestplateBar=Приховати
+options.hideChestplateBar.never=Ніколи
+options.hideChestplateBar.when_not_wearing=Коли не використовується
+options.hideChestplateBar.always=Завжди
+
+options.hideLeggingsBar=Приховати
+options.hideLeggingsBar.never=Ніколи
+options.hideLeggingsBar.when_not_wearing=Коли не використовується
+options.hideLeggingsBar.always=Завжди
+
+options.hideBootsBar=Приховати
+options.hideBootsBar.never=Ніколи
+options.hideBootsBar.when_not_wearing=Коли не використовується
+options.hideBootsBar.always=Завжди
+
+options.verticalHotBar=Вертикально
+options.verticalHeldItemCount=Вертикально
+options.verticalHealthBar=Вертикально
+options.verticalOxygenBar=Вертикально
+options.verticalVehicleBar=Вертикально
+options.verticalFireBar=Вертикально
+options.verticalAcidBar=Вертикально
+
+options.flipHeldItemCount=Перегорнути
+options.flipHelmetBar=Перегорнути
+options.flipChestplateBar=Перегорнути
+options.flipLeggingsBar=Перегорнути
+options.flipBootsBar=Перегорнути
+options.flipHealthBar=Перегорнути
+options.flipOxygenBar=Перегорнути
+options.flipVehicleBar=Перегорнути
+options.flipFireBar=Перегорнути
+options.flipAcidBar=Перегорнути
+
+options.horizontalInfoTextAlignment=Вирівняти по горизонталі
+options.horizontalInfoTextAlignment.left=Ліво
+options.horizontalInfoTextAlignment.center=Центр
+options.horizontalInfoTextAlignment.right=Право
+
+options.horizontalLogTextAlignment=Вирівняти по горизонталі
+options.horizontalLogTextAlignment.left=Ліво
+options.horizontalLogTextAlignment.center=Центр
+options.horizontalLogTextAlignment.right=Право
+
+options.horizontalChatTextAlignment=Вирівняти по горизонталі
+options.horizontalChatTextAlignment.left=Ліво
+options.horizontalChatTextAlignment.center=Центр
+options.horizontalChatTextAlignment.right=Право
+options.horizontalSubtitleTextAlignment=Вирівняти по горизонталі
+options.horizontalSubtitleTextAlignment.left=Ліво
+options.horizontalSubtitleTextAlignment.center=Центр
+options.horizontalSubtitleTextAlignment.right=Право
+
+options.verticalInfoTextAlignment=Вирівняти по вертикалі
+options.verticalInfoTextAlignment.top=Верх
+options.verticalInfoTextAlignment.center=Центр
+options.verticalInfoTextAlignment.bottom=Низ
+
+options.verticalLogTextAlignment=Вирівняти по вертикалі
+options.verticalLogTextAlignment.top=Верх
+options.verticalLogTextAlignment.center=Центр
+options.verticalLogTextAlignment.bottom=Низ
+
+options.verticalChatTextAlignment=Вирівняти по вертикалі
+options.verticalChatTextAlignment.top=Верх
+options.verticalChatTextAlignment.center=Центр
+options.verticalChatTextAlignment.bottom=Низ
+options.verticalSubtitleTextAlignment=Вирівняти по вертикалі
+options.verticalSubtitleTextAlignment.top=Верх
+options.verticalSubtitleTextAlignment.center=Центр
+options.verticalSubtitleTextAlignment.bottom=Низ
 
 key.attack=Атакування
 key.interact=Взаємодія
@@ -311,14 +404,27 @@ key.autoWalk=Автохода
 key.easyBridge=Перемикнути режим легкого мостобудування
 key.sprint=Біг (якщо увімкнений)
 key.toggleDebug=Перемикнути екран зневадження
-key.toggleOverlay=Перемикнути наекранну інформацію
+key.toggleInfoOverlay=Перемикнути наекранну інформацію
 key.sortInventory=Сортувати інвентар
 key.openAchievements=Відкрити меню досягнень
 key.openStatistics=Відкрити меню статистики
 key.showConsole=Показати консоль
 key.description=Показувати опис предмету
-key.disabled=Не назначено
+key.disabled=Вимкнено
+
+key.hudEditorSelect=Select HUD Component
+key.hudEditorOpenContext=Open Component Context Menu
+key.hudEditorExit=Exit HUD Editor
+key.hudEditorReset=Reset HUD to Default
+key.hudEditorNudgeUp=Nudge Up Selected Component
+key.hudEditorNudgeDown=Nudge Down Selected Component
+key.hudEditorNudgeLeft=Nudge Left Selected Component
+key.hudEditorNudgeRight=Nudge Right Selected Component
+key.hudEditorNudgeFast=Nudge Selected Component Faster
+key.hudEditorOnboarding=Show HUD Editor Onboarding Screen
+
 key.debug.textureAtlas=Показати тямовід текстур
+key.debug.textureAtlasLayer=Shift Texture Atlas Layer
 key.debug.reload=Перезавантажити текстури
 key.debug.gamemode=Перемикнути режим гри
 key.debug.dumptextures=Скинути текстури
@@ -334,7 +440,7 @@ key.debug.smoothlighting=Перемикнути плавне освітленн�
 key.debug.releasecursor=Розосередити курсор
 key.debug.shortcuts=Показати комбінації клавіш
 key.debug.loadChunksQuickly=Швидко завантажувати чанки
-
+key.debug.toggleFrameLimit=Toggle Frame Limit
 
 //compatibility
 options.alwaysShowDescriptions=Завжди показувати опис предметів
@@ -373,3 +479,13 @@ performance.max=Макс FPS
 performance.balanced=Збалансований
 performance.powersaver=Ощадливий
 performance.vsync=V-sync
+
+//7.3
+options.heldItemCountOverlay=Показувати кількість предметів
+options.heldItemTooltips=Показувати назву предметів у руці
+options.colorCorrection=Корекція кольору
+options.colorCorrection.low=Слабка
+options.colorCorrection.high=Сильна
+
+key.toggleOverlay=Перемикнути наекранну інформацію
+

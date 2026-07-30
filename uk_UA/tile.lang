@@ -34,7 +34,7 @@ tile.cobble.granite.mossy.desc=Порослий мохом базальтови�
 
 tile.pillar.marble.name=Мармурова колона
 tile.pillar.marble.desc=Блок мармуру, вирізьблений у стовп.
-tile.capstone.marble.name=Кінцьовий блок мармуру
+tile.capstone.marble.name=Наріжний блок** мармуру
 tile.capstone.marble.desc=Верхівка колони, виготовлена з чистого мармуру.
 
 tile.sandstone.name=Пісковик
@@ -233,10 +233,10 @@ tile.brick.stone.desc=Укладені кам'яні цеглини.
 tile.brick.permafrost.name=Вічномерзла цегла 
 tile.brick.permafrost.desc=Укладені вічномерзлі цеглини.
 
-tile.brick.rubyglass.name=Рубіскляна цегла
-tile.brick.rubyglass.desc=Укладені цеглини з рубіскла.
-tile.brick.diamond.name=Діамантова цегла
-tile.brick.diamond.desc=Укладені діамантові цеглини.
+tile.brick.rubyglass.name=Rubyglass Bricks
+tile.brick.rubyglass.desc=Stacked bricks of rubyglass.
+tile.brick.diamond.name=Diamond Bricks
+tile.brick.diamond.desc=Stacked bricks of diamond.
 tile.brick.iron.name=Залізна цегла
 tile.brick.iron.desc=Укладені залізні цеглини.
 tile.brick.gold.name=Золота цегла
@@ -245,10 +245,10 @@ tile.brick.lapis.name=Лазуритова цегла
 tile.brick.lapis.desc=Укладені цеглини з лазуриту.
 tile.brick.steel.name=Сталева цегла
 tile.brick.steel.desc=Укладені сталеві цеглини.
-tile.brick.olivine.name=Олівінова цегла
-tile.brick.olivine.desc=Укладені олівінові цеглини.
-tile.brick.quartz.name=Кварцова цегла
-tile.brick.quartz.desc=Укладені цеглини з кварцу.
+tile.brick.olivine.name=Olivine Bricks**
+tile.brick.olivine.desc=Stacked bricks of olivine.
+tile.brick.quartz.name=Quartz Bricks
+tile.brick.quartz.desc=Stacked bricks of quartz.
 
 tile.slab.planks.oak.name=Дерев'яна плита
 tile.slab.planks.oak.desc=Плита з дерев'яних дощок.
@@ -260,8 +260,8 @@ tile.slab.brick.stone.polished.name=Плита з полірованої кам'
 tile.slab.brick.stone.polished.desc=Полірована кам'яна цегляна плита.
 tile.slab.stone.carved.name=Плита з полірованого каменю
 tile.slab.stone.carved.desc=Полірована кам'яна плита.
-tile.slab.slate.polished.name=Плита з полірованошо сланцю
-tile.slab.slate.polished.desc=Полірована сланцева плита.
+tile.slab.slate.polished.name=Polished Slate Slab**
+tile.slab.slate.polished.desc=A slab of polished slate
 tile.slab.brick.marble.name=Плита з мармурової цегли
 tile.slab.brick.marble.desc=Мармурова цегляна плита.
 tile.slab.brick.clay.name=Плита з глиняної цегли
@@ -292,8 +292,8 @@ tile.slab.basalt.carved.name=Плита з полірованого базаль
 tile.slab.basalt.carved.desc=Полірована базальтова плита.
 tile.slab.permafrost.carved.name=Плита з полірованого вічномерзня
 tile.slab.permafrost.carved.desc=Полірована вічномерзла плита.
-tile.slab.slate.carved.name=Плита з полірованого сланцю
-tile.slab.slate.carved.desc=.
+tile.slab.slate.carved.name=Polished Slate Slab**
+tile.slab.slate.carved.desc=A slab of polished slate.
 
 tile.slab.planks.oak.painted.name=Містична дерев'яна плита
 tile.slab.planks.oak.painted.desc=Га?! Звідки це в тебе?!
@@ -336,10 +336,10 @@ tile.slab.brick.sandstone.desc=Пісковикова цегляна плита.
 tile.slab.brick.permafrost.name=Плита з вічномерзлої цегли 
 tile.slab.brick.permafrost.desc=Вічномерзла цегляна плита.
 
-tile.slab.brick.rubyglass.name=Плита з рубіскляної цегли
-tile.slab.brick.rubyglass.desc=Рубіскляна цегляна плита.
-tile.slab.brick.diamond.name=Плита з діамантової цегли
-tile.slab.brick.diamond.desc=Діамантова цегляна плита.
+tile.slab.brick.rubyglass.name=Rubyglass Brick Slab
+tile.slab.brick.rubyglass.desc=A slab of rubyglass bricks.
+tile.slab.brick.diamond.name=Diamond Brick Slab
+tile.slab.brick.diamond.desc=A slab of diamond bricks
 tile.slab.brick.iron.name=Плита з залізної цегли
 tile.slab.brick.iron.desc=Залізна цегляна плита.
 tile.slab.brick.gold.name=Плита з золотої цегли
@@ -348,10 +348,10 @@ tile.slab.brick.lapis.name=Плита з лазуритової цегли
 tile.slab.brick.lapis.desc=Лазуритова цегляна плита.
 tile.slab.brick.steel.name=Плита зі сталевої цегли
 tile.slab.brick.steel.desc=Сталева цегляна плита.
-tile.slab.brick.olivine.name=Плита з олівінової цегли
-tile.slab.brick.olivine.desc=Олівінова цегляна плита.
-tile.slab.brick.quartz.name=Плита з кварцевої цегли
-tile.slab.brick.quartz.descКварцева цегляна плита.
+tile.slab.brick.olivine.name=Olivine Brick Slab
+tile.slab.brick.olivine.desc=A slab of olivine bricks.
+tile.slab.brick.quartz.name=Quartz Brick Slab
+tile.slab.brick.quartz.desc=A slab of quartz bricks.
 
 tile.stairs.planks.oak.name=Дерев'яні сходи
 tile.stairs.planks.oak.desc=Дерев'яна споруда для стрімкого вертикального пересування.
@@ -1144,16 +1144,16 @@ tile.stairs.brick.netherrack.name=Сходи з незеракової цегл�
 tile.stairs.brick.netherrack.desc=Споруда з незеракової цегли для стрімкого вертикального пересування.
 
 tile.gloomstone.name=Журамінь
-tile.gloomstone.desc=Бузковий камінь, добутий з глибин пекла.
-tile.cobble.gloomstone.name=Кругляковий журамінь
-tile.cobble.gloomstone.desc=.
-tile.brick.gloomstone.name=Журам'яна цегла
-tile.brick.gloomstone.desc=Укладені цеглини з жураменю.
-tile.slab.gloomstone.carved.name=Плита з полірованого жураменю
-tile.slab.gloomstone.carved.desc=Полірована журамінна плита.
-tile.slab.cobble.gloomstone.name=Плита з круглякового жураменю
-tile.slab.cobble.gloomstone.desc=Круглякова журам'яна плита.
-tile.slab.brick.gloomstone.name=Gloomstone Brick Плита з
+tile.gloomstone.desc=A purplish rock plucked from the depths of Hell. Фіолетовенький камінь, витягнутий з надр пекла
+tile.cobble.gloomstone.name=Cobbled Gloomstone
+tile.cobble.gloomstone.desc=Gloomstone, smashed apart and reconstituted.
+tile.brick.gloomstone.name=Gloomstone Bricks
+tile.brick.gloomstone.desc=Stacked bricks of gloomstone.
+tile.slab.gloomstone.carved.name=Polished Gloomstone Slab
+tile.slab.gloomstone.carved.desc=A slab of polished gloomstone.
+tile.slab.cobble.gloomstone.name=Cobbled Gloomstone Slab
+tile.slab.cobble.gloomstone.desc=A slab of cobbled gloomstone.
+tile.slab.brick.gloomstone.name=Gloomstone Brick Slab
 tile.slab.brick.gloomstone.desc=A slab of gloomstone bricks.
 tile.stairs.cobble.gloomstone.name=Cobbled Gloomstone Stairs
 tile.stairs.cobble.gloomstone.desc=Cobbled gloomstone block used for rapid vertical movement.
@@ -1519,16 +1519,16 @@ tile.log.scorched.desc=Обвуглена, під дією сильного жа
 tile.brimstone.name=Жупел
 tile.brimstone.desc=Спресований жупний пісок.
 
-tile.slab.brimstone.name=Brimstone Плита з
+tile.slab.brimstone.name=Brimstone Slab
 tile.slab.brimstone.desc=A slab of brimstone.
 
 tile.stairs.brimstone.name=Brimstone Stairs
 tile.stairs.brimstone.desc=Brimstone block used for rapid vertical movement.
 
 tile.brick.brimstone.name=Brimstone Bricks
-tile.brick.brimstone.desc=Укладені цеглини з Brimstone.
+tile.brick.brimstone.desc=Stacked bricks of Brimstone.
 
-tile.slab.brick.brimstone.name=Brimstone Brick Плита з
+tile.slab.brick.brimstone.name=Brimstone Brick Slab
 tile.slab.brick.brimstone.desc=A slab of brimstone bricks.
 
 tile.stairs.brick.brimstone.name=Brimstone Brick Stairs
