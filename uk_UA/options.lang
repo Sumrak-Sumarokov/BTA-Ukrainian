@@ -317,40 +317,40 @@ options.flipVehicleBar=Перегорнути
 options.flipFireBar=Перегорнути
 options.flipAcidBar=Перегорнути
 
-options.horizontalInfoTextAlignment=Вирівняти по горизонталі
+options.horizontalInfoTextAlignment=Вирівняти за горизонталлю
 options.horizontalInfoTextAlignment.left=Ліво
 options.horizontalInfoTextAlignment.center=Центр
 options.horizontalInfoTextAlignment.right=Право
 
-options.horizontalLogTextAlignment=Вирівняти по горизонталі
+options.horizontalLogTextAlignment=Вирівняти за горизонталлю
 options.horizontalLogTextAlignment.left=Ліво
 options.horizontalLogTextAlignment.center=Центр
 options.horizontalLogTextAlignment.right=Право
 
-options.horizontalChatTextAlignment=Вирівняти по горизонталі
+options.horizontalChatTextAlignment=Вирівнятиза горизонталлю
 options.horizontalChatTextAlignment.left=Ліво
 options.horizontalChatTextAlignment.center=Центр
 options.horizontalChatTextAlignment.right=Право
-options.horizontalSubtitleTextAlignment=Вирівняти по горизонталі
+options.horizontalSubtitleTextAlignment=Вирівняти за горизонталлю
 options.horizontalSubtitleTextAlignment.left=Ліво
 options.horizontalSubtitleTextAlignment.center=Центр
 options.horizontalSubtitleTextAlignment.right=Право
 
-options.verticalInfoTextAlignment=Вирівняти по вертикалі
+options.verticalInfoTextAlignment=Вирівняти за вертикаллю
 options.verticalInfoTextAlignment.top=Верх
 options.verticalInfoTextAlignment.center=Центр
 options.verticalInfoTextAlignment.bottom=Низ
 
-options.verticalLogTextAlignment=Вирівняти по вертикалі
+options.verticalLogTextAlignment=Вирівняти за вертикаллю
 options.verticalLogTextAlignment.top=Верх
 options.verticalLogTextAlignment.center=Центр
 options.verticalLogTextAlignment.bottom=Низ
 
-options.verticalChatTextAlignment=Вирівняти по вертикалі
+options.verticalChatTextAlignment=Вирівняти за вертикаллю
 options.verticalChatTextAlignment.top=Верх
 options.verticalChatTextAlignment.center=Центр
 options.verticalChatTextAlignment.bottom=Низ
-options.verticalSubtitleTextAlignment=Вирівняти по вертикалі
+options.verticalSubtitleTextAlignment=Вирівняти за вертикаллю
 options.verticalSubtitleTextAlignment.top=Верх
 options.verticalSubtitleTextAlignment.center=Центр
 options.verticalSubtitleTextAlignment.bottom=Низ
@@ -440,7 +440,7 @@ key.debug.smoothlighting=Перемикнути плавне освітленн�
 key.debug.releasecursor=Розосередити курсор
 key.debug.shortcuts=Показати комбінації клавіш
 key.debug.loadChunksQuickly=Швидко завантажувати чанки
-key.debug.toggleFrameLimit=Toggle Frame Limit
+key.debug.toggleFrameLimit=Перемикнути обмеження кадрів
 
 //compatibility
 options.alwaysShowDescriptions=Завжди показувати опис предметів
